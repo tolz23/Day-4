@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 480px;
+    background-color: white;
+    display: flex;
+    font-family: sans-serif;
+    font-size: small;
+
+}
+.side{
+    width: 13%;
+    height: 40ch;
+    background-color: white;
+    display: block;
+    justify-content: space-between;
+    padding-left: 2vh;
+}
+span:hover{
+    font-weight: bolder;
+
+}
+.left{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 70ch;
+}
+nav{
+    height: 3.5ch;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#spa{
+    border: 1px solid;
+    background-color: blue;
+    color: white;
+    padding-top: 2px;
+    height: 18px;
+    margin-top: 2px;
+    margin-left: 3px;
+    border-radius: 1vh;
+}
+img{
+    width: 20px;
+    height: 28px;
+}
+.body{
+    background-color: white;
+    height: 40ch;
+    width: 40%;
+    margin-top: 5vh;
+    margin-left: 35vh;
+}
+h3{
+    padding-left: 5px;
+    padding-top: 15px;
+}
+#table1{
+    background-color: rgb(196, 193, 193);
+    width:90%;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+table{
+    text-align: justify;
+}
+td{
+    padding-left: 10vh;
+}
+th{
+    color: rgb(165, 162, 162);
+    font-weight: lighter;
+}
+#up{
+    display: flex;
+    justify-content: space-between;
+}
+#table2{
+    background-color: rgb(188, 183, 183);
+    width:90%;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+button{
+    background-color: blue;
+    width:89%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    justify-self: center;
+    margin-left: 15px;
+    height: 40px;
+    border: 1px;
+}
